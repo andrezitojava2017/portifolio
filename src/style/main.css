@@ -1,0 +1,22 @@
+:root{
+    font-family: "Saira", sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a:visited, a:active, a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+.containerMain {
+
+    display: flex;
+    flex-direction: column;
+}
