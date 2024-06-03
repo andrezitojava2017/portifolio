@@ -6,10 +6,10 @@ import {
   SiTypescript,
   SiMongodb,
   SiFirebase,
-  SiMysql,
 } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
-import { DiNodejs } from 'react-icons/di';
+import { GrMysql } from "react-icons/gr";
+import { IoLogoNodejs } from "react-icons/io5";
 
 const Principal = () => {
   return (
@@ -29,8 +29,8 @@ const Principal = () => {
             <FaJava size={30} color="#1565C0" />
             <SiMongodb size={30} color="#7CB342" />
             <SiFirebase size={30} color="yellow" />
-            <SiMysql size={30} color={'#1565C0'} />
-            <DiNodejs size={40} color="green" />
+            <GrMysql size={30} color={'#1565C0'} />
+            <IoLogoNodejs size={40} color="green" />
           </article>
         </aside>
         <aside>
