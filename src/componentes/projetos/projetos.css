@@ -54,3 +54,12 @@
     color: greenyellow;
     border-color: greenyellow;;
 }
+
+@media screen and (max-width: 700px) {
+    .lista_projetos{
+        flex-flow: column nowrap;
+    }
+    .projeto{
+        max-width: 100%;
+    }
+}

@@ -12,6 +12,7 @@ export const listaProjetos = [
     titulo: 'App Paycheck',
     descricao: 'Aplicativo Android para geração e consulta de holerites',
     href: 'https://play.google.com/store/apps/details?id=com.js.mobile.paycheck',
+ 
   },
 
   {
@@ -20,6 +21,7 @@ export const listaProjetos = [
     descricao:
       'Aplicativo Android para busca de prestadores de serviços, ao qual disponiblizam em determinada área',
     href: 'https://play.google.com/store/apps/details?id=com.cleanservicos',
+
   },
 
   {
@@ -28,5 +30,6 @@ export const listaProjetos = [
     descricao:
       'Sistema Web para gerenciamento e controle de estoque de insumos agricolas',
     href: 'https://gestao-agro.vercel.app/',
+
   },
 ];

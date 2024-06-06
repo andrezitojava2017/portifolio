@@ -13,12 +13,12 @@ import { IoLogoNodejs } from "react-icons/io5";
 
 const Principal = () => {
   return (
-    <>
-      <section className="container">
+
+      <section className="container_principal">
         <aside className="identificacao">
           <span className="nome">Jederson Andre</span>
           <span className="info">Desenvolvedor Web e Mobile</span>
-          <article className="tecnologias">
+         <article > 
             <FaHtml5 size={30} color="#E65100" />
             <SiJavascript size={30} color="yellow" />
             <FaCss3Alt size={30} color="cyan" />
@@ -32,6 +32,7 @@ const Principal = () => {
             <GrMysql size={30} color={'#1565C0'} />
             <IoLogoNodejs size={40} color="green" />
           </article>
+          
         </aside>
         <aside>
           <figure>
@@ -39,7 +40,7 @@ const Principal = () => {
           </figure>
         </aside>
       </section>
-    </>
+    
   );
 };
 
