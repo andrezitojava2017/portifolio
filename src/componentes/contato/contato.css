@@ -32,3 +32,10 @@
     padding: 1.5rem;
     color: aliceblue;
 }
+
+@media screen and (max-width: 700px) {
+    .direitos_autorais span{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}

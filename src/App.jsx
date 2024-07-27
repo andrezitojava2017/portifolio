@@ -1,4 +1,4 @@
-import './App.css';
+
 import Contato from './componentes/contato/contato';
 import Header from './componentes/header/header';
 import Principal from './componentes/principal/principal';
